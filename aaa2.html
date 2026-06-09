@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting to Shopee...</title>
+
+  <!-- Open Graph tags for Facebook preview -->
+  <meta property="og:title" content="SirGeybin totoong nangyari..." />
+  <meta property="og:description" content="Click here to view product specifications, customer reviews, and discount vouchers directly on the Shopee app." />
+  <meta property="og:image" content="https://l-l-q.github.io/images/IMG_8581.PNG" /><!--image should be 1200x630 -->
+  <meta property="og:url" content="https://l-l-q.github.io/aaa2.html" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter card for wide preview -->
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- JavaScript redirect (so FB crawler only sees OG tags, not Shopee’s page) -->
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://s.shopee.ph/AKY4q27gjE";
+    }, 4000);
+  </script>
+    
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5; /* Facebook background grey */
+            color: #1c1e21;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding-top: 40px;
+        }
+        .main-container {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 12px;
+        }
+        /* Card mimicking a professional Facebook timeline feed post */
+        .fb-post-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            border: 1px solid #ced0d4;
+        }
+        /* Top header section of the simulation card */
+        .post-header {
+            padding: 12px 16px;
+            display: table;
+            width: 100%;
+        }
+        .avatar-cell {
+            display: table-cell;
+            width: 40px;
+            vertical-align: middle;
+        }
+        .avatar-placeholder {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #ee4d2d; /* Shopee Orange */
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 40px;
+            text-align: center;
+        }
+        .meta-cell {
+            display: table-cell;
+            vertical-align: middle;
+            padding-left: 12px;
+        }
+        .profile-name {
+            font-weight: 600;
+            font-size: 14pt;
+            color: #050505;
+            margin: 0 0 2px 0;
+        }
+        .post-time {
+            font-size: 11pt;
+            color: #65676b;
+            margin: 0;
+        }
+        /* The main caption copy */
+        .post-caption {
+            font-size: 13pt;
+            line-height: 1.4;
+            padding: 4px 16px 12px 16px;
+            white-space: pre-line; /* Preserves line breaks automatically */
+        }
+        /* Image container and visual responsive media element */
+        .post-media-container {
+            width: 100%;
+            position: relative;
+            background-color: #000;
+            border-top: 1px solid #e5e5e5;
+            border-bottom: 1px solid #e5e5e5;
+        }
+        .post-image {
+            width: 100%;
+            display: block;
+            height: auto;
+            max-height: 500px;
+            object-fit: contain;
+        }
+        /* Footer action block indicating status / direct navigation alternative */
+        .post-footer-cta {
+            padding: 12px 16px;
+            text-align: center;
+            background-color: #fafafa;
+        }
+        .spinner {
+            border: 3px solid rgba(0, 0, 0, 0.08);
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border-left-color: #ee4d2d;
+            animation: spin 0.8s linear infinite;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+        .cta-text {
+            font-size: 11pt;
+            color: #65676b;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .cta-text a {
+            color: #ee4d2d;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .cta-text a:hover {
+            text-decoration: underline;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <!-- Visual Layout visible to the mobile/desktop user during the brief redirect phase -->
+        <div class="fb-post-card">
+            
+            <div class="post-header">
+                <div class="avatar-cell">
+                    <div class="avatar-placeholder">S</div>
+                </div>
+                <div class="meta-cell">
+                    <p class="profile-name">Recommended</p>
+                    <p class="post-time">Just now · 🌐</p>
+                </div>
+            </div>
+
+            <!-- CUSTOMIZABLE CAPTION: This text shows natively on the landing page screen -->
+            <div class="post-caption">
+                Totoo ba?
+            </div>
+
+            <!-- CUSTOMIZABLE IMAGE: This image displays natively on the landing page screen -->
+            <div class="post-media-container">
+                <img class="post-image" src="https://l-l-q.github.io/images/IMG_8581.PNG" alt="Product Image Preview" />
+            </div>
+
+            <div class="post-footer-cta">
+                <div class="spinner"></div>
+                <div class="cta-text">
+                    Redirecting you straight to the Shopee App... <br>
+                    <small>Stuck? <a href="https://s.shopee.ph/AKY4q27gjE">Click here to open manually</a>.</small>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ============================================================
+         AUTOMATIC REDIRECT JAVASCRIPT BLOCK
+         ============================================================ -->
+    <script>
+        // REPLACE THIS URL WITH YOUR ACTUAL 'shp.ee' AFFILIATE LINK
+        const shopeeDeepLink = "https://s.shopee.ph/AKY4q27gjE";
+
+        // Optional slight delay (e.g., 1.5 seconds) so the user can visually read the caption 
+        // and register the image before the phone immediately hands over processing to the Shopee App.
+        // Change 1500 to 0 if you want an instant, immediate blink-and-miss redirect.
+        setTimeout(function() {
+            window.location.href = shopeeDeepLink;
+        }, 1500);
+    </script>
+</body>
+</html>
